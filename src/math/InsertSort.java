@@ -14,7 +14,7 @@ public class InsertSort {
 		return nums;
 	}
 	public static void main(String[] args){
-		int nums[] ={5,2,3,1,8,6};
+		int nums[] ={5,2,9,1,8,6,3,10,11,7};
 		insertSort(nums);
 		for (int i = 0; i < nums.length; i ++){
 			System.out.print(nums[i]+"  ");
