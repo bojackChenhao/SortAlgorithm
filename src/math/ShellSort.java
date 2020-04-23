@@ -16,7 +16,7 @@ public class ShellSort {
 					nums[m-(x+1)*k] = temp;
 				}	
 			}
-			k = k/2;
+			k/=2;
 		}
 			return nums;
 	}
