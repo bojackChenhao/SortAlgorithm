@@ -15,7 +15,6 @@ public class ShellSortOne {
 
             k/=2;
         }
-
         return nums;
     }
     public static void main(String[] args){
